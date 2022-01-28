@@ -2,12 +2,12 @@
 
 Goal of this project is to allow users to run a terraform script to bring up the require infrastructure in aws to host a simple postgresql database. We will be utilizing the following resources to achieve this task
 
-* **VPC**
-* **Internet Gateway**
-* **VPC Route Table**
-* **Public Subnet**
-* **Security Group**
-* **EC2**
+* VPC**
+* Internet Gateway
+* VPC Route Table
+* Public Subnet
+* Security Group
+* EC2
 
 The whole idea is to spin up a ec2 in a default or customized VPC environment. We will utilize gateway, route table and subnet to setup the networking rules. We will only allow inbound traffic via ssh on port 22 of the ec2 instance. All traffic will be allowed outwards from the ec2 instance. If you need it to be more restrictive, make that change in subnet/vpc/postfres config file. It really depends on the need. If the network needs to be restrictive, you can configure `${allowed_ip}` to your desired ip in `pg_hba.conf`
 
