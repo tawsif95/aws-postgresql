@@ -37,3 +37,5 @@ terraform.rc
 
 # SSH key public
 id_rsa.pub
+
+.vscode/
