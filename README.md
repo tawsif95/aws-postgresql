@@ -2,7 +2,7 @@
 
 Goal of this project is to allow users to run a terraform script to bring up the require infrastructure in aws to host a simple postgresql database. We will be utilizing the following resources to achieve this task
 
-* VPC**
+* VPC
 * Internet Gateway
 * VPC Route Table
 * Public Subnet
